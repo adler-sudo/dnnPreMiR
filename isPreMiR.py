@@ -86,8 +86,10 @@ def second_struct_predict(seq):
         seq_struct.append(seq[index]+struct[index])
     return seq_struct
 
+# TODO: maybe add option for if the seq_struct is empty
+# TODO: or maybe this is already addressed somewhere else
 def transform_seq_struct(seq_struct, seq_len:int=180):
-    SEQ_LEN = seq_len
+    SEQ_LEN = seq_len # TODO: may need to move this back to non-variable due to model structure
     seq_struct_vector = []
     if len(seq_struct) > SEQ_LEN:
         seq_struct = seq_struct[:SEQ_LEN]
