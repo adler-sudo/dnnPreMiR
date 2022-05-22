@@ -19,6 +19,8 @@ USAGE:
 - Tensorflow > 0.12
 - Numpy
 - RNAfold (/bin/RNAfold)
+- Pandas
+- scikit-learn
 
 ## Training
 We trained the CNN model,RNN model and the concat model to train the dataset.
