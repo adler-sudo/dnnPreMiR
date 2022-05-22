@@ -7,7 +7,8 @@ import tensorflow as tf
 from dnnPreMir.CNN import (
     CNNModel,
     CNNTrain,
-    CNNEvaluation
+    CNNEvaluation,
+    CNNMain
 )
 
 

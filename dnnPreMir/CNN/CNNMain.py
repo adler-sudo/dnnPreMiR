@@ -4,10 +4,11 @@
 """
 
 import sys
-sys.path.append("../data")
-from CNNTrain import CNN_train
-from CNNEvaluation import test_evaluation
-import dataSetPartition
+
+from dnnPreMir.CNN.CNNTrain import CNN_train
+from dnnPreMir.CNN.CNNEvaluation import test_evaluation
+from dnnPreMir.data import dataSetPartition
+
 import time
 
 def CNNMain():
