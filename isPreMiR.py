@@ -86,8 +86,8 @@ def second_struct_predict(seq):
         seq_struct.append(seq[index]+struct[index])
     return seq_struct
 
-def transform_seq_struct(seq_struct):
-    SEQ_LEN = 180
+def transform_seq_struct(seq_struct, seq_len:int=180):
+    SEQ_LEN = seq_len
     seq_struct_vector = []
     if len(seq_struct) > SEQ_LEN:
         seq_struct = seq_struct[:SEQ_LEN]
