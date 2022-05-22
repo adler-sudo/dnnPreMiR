@@ -1,9 +1,8 @@
 """ Train the CNN model using dataset
 """
 import sys
-sys.path.append("../data") 
-from CNNModel import CNN_model
-import dataSetPartition
+from dnnPreMir.CNN.CNNModel import CNN_model
+from dnnPreMir.data import dataSetPartition
 import keras
 import os
 

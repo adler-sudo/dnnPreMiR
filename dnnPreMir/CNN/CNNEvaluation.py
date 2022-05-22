@@ -5,8 +5,7 @@ from keras.models import Sequential
 import numpy as np
 import math
 import sys
-sys.path.append("../data")
-import dataSetPartition
+from dnnPreMir.data import dataSetPartition
 
 # calculate TP,TN, FP and FN
 def predict_comparision(y_predict,y_test):

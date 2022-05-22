@@ -2,7 +2,7 @@
 """
 
 import numpy as np
-from dataVectorization import vectorize_data
+from dnnPreMir.data.dataVectorization import vectorize_data
 
 # generate the train(4/5) and test datasets(1/5)
 def train_test_partition(positive_file,negative_file):
