@@ -104,7 +104,7 @@ def transform_seq_struct(seq_struct, seq_len:int=180):
 
 def predict_results(seq_struct_vector):
     # reload the model
-    model = load_model('src/CNN/CNN_model.h5')
+    model = load_model('dnnPreMir/CNN/CNN_model.h5')
     # prediction
     result =  model.predict(seq_struct_vector)
 
